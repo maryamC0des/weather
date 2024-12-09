@@ -1,0 +1,139 @@
+body {
+    background-color: #1a1f25;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #1a1f25;
+    border: none;
+    margin-bottom: 0;
+}
+
+.navbar-brand {
+    padding: 10px 15px;
+}
+
+.navbar-brand img {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.navbar-nav > li > a {
+    color: white !important;
+}
+
+.navbar-nav > li > a:hover,
+.navbar-nav > li.active > a {
+    color: #00a8e8 !important;
+    background-color: transparent !important;
+}
+
+.search-section {
+    position: relative;
+    min-height: 300px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://routeweather.netlify.app/images/banner.png) center/cover;
+    padding: 100px 0;
+}
+
+.search-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.search-input {
+    border-radius: 25px;
+    background-color: rgba(26, 31, 37, 0.9);
+    border: none;
+    color: white;
+    height: 45px;
+}
+
+.search-btn {
+    border-radius: 25px;
+    background-color: #00a8e8;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+}
+
+.weather-container {
+    padding: 40px 0;
+}
+
+.weather-card {
+    background-color: rgba(26, 31, 37, 0.9);
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.location {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.temperature {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.weather-icon {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.weather-info {
+    color: #00a8e8;
+    margin-bottom: 20px;
+}
+
+.weather-details {
+    color: #666;
+}
+
+.weather-details i {
+    margin-right: 5px;
+}
+
+.weather-details span {
+    margin-right: 15px;
+}
+
+.subscribe-section {
+    background-color: rgba(26, 31, 37, 0.9);
+    padding: 30px 0;
+}
+
+.subscribe-input {
+    border-radius: 25px;
+    background-color: rgba(40, 47, 54, 0.9);
+    border: none;
+    color: white;
+    height: 40px;
+}
+
+.subscribe-btn {
+    border-radius: 25px;
+    background-color: #00a8e8;
+    border: none;
+    color: white;
+    padding: 8px 30px;
+}
+
+.social-links {
+    text-align: right;
+}
+
+.social-links a {
+    color: #00a8e8;
+    margin-left: 15px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.footer {
+    padding: 20px 0;
+    color: #666;
+    text-align: center;
+}
